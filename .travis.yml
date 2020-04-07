@@ -3,6 +3,8 @@ node_js:
   - "12"
 
 after_script:
+  - grunt build
+  - grunt lint
   - npm run build
   - cd ./dist
   - git init
