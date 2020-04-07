@@ -1,0 +1,45 @@
+{
+  "name": "WebNote",
+  "version": "1.0.0",
+  "description": "📑 WEB记事本",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "grunt": "^1.1.0",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-usemin": "^3.1.1"
+  },
+  "scripts": {
+    "test": "grunt lint",
+    "build": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luyishuang/WebNote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luyishuang/WebNote/issues"
+  },
+  "homepage": "https://github.com/luyishuang/WebNote#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-usemin": "^3.1.1"
+  }
+}

@@ -1,0 +1,39 @@
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+html,
+body,
+.app {
+  font-family: Microsoft YaHei;
+  font-size: 12px;
+  height: 100%;
+  width: 100%;
+}

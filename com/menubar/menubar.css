@@ -1,0 +1,81 @@
+.notepad-menubar {
+  background-color: white;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  user-select: none;
+  z-index: 5;
+  height: 20px;
+}
+.menu-title {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  border: 1px solid white;
+  box-sizing: border-box;
+  cursor: default;
+  display: inline-block;
+  font-size: 1em;
+  height: 20px;
+  line-height: 18px;
+  text-align: center;
+  width: 54px;
+}
+.title:hover {
+  box-sizing: border-box;
+  background-color: #cce8ff;
+  border: 1px solid #99d1ff;
+}
+.menus {
+  background-color: #f2f2f2;
+  box-shadow: 5px 5px 5px #a6a6a6;
+  display: none;
+  font-size: 1em;
+  margin: 0;
+  padding: 2px;
+  position: absolute;
+  top: 20px;
+  width: 202px;
+  padding-left: 4px;
+  left: 0;
+}
+.menus.active {
+  display: block;
+}
+.menu-item {
+  height: 22px;
+  line-height: 22px;
+  padding-left: 34px;
+  padding-right: 22px;
+}
+.notepad-menubar .menu-item:hover {
+  background-color: #99d1ff;
+  height: 22px;
+}
+.notepad-menubar .menus .shortcut {
+  float: right;
+}
+.notepad-menubar .disabled {
+  color: #6d6d6d;
+}
+.notepad-menubar .disabled:hover {
+  background-color: #e6e6e6;
+}
+.notepad-menubar .menu-hr {
+  border: 1px solid #d7d7d7;
+  height: 0;
+  margin: 4px;
+  margin-left: 34px;
+}
+.notepad-menubar .checked {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 0;
+  line-height: 22px;
+  text-align: center;
+  background-color: #90c8f6;
+}
+
