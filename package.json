@@ -4,7 +4,7 @@
   "description": "📑 WEB记事本",
   "main": "index.js",
   "dependencies": {
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^9.1.0",
     "grunt": "^1.1.0",
     "grunt-babel": "^7.0.0",
     "grunt-contrib-concat": "^1.0.1",
